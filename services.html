@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="services.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg navbar-no-margin" id="main-nav-container">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img id="logo" src="/Pictures/logo1.png" alt="Harmony Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto" id="navigation-items">
+                    <li class="nav-item me-3">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#reguest-a-quote"><button class="btn nav-link" id="quote-button" type="button">Get a Quote</button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+<!-- Hero Section -->
+<section class="hero" style="background-image: url('/servixe\ hero.jpg');">
+    <div id="hero-content">
+        <h1>Catering Service</h1>
+        <p>Catering is the process or business of preparing food and providing food services for clients at remote locations</p>
+    </div>
+</section>
+
+<!-- What we offer Section -->
+<section id="home-services">
+    <h1 id="offer-head">What We Offer</h1>
+    <div id="wedding" >
+        <h1>Birthday</h1>
+        <img src="/Pictures/services.birthday.jpg" alt="wedding event" class="home-services-img">
+        <p>Let us help you celebrate with a feast that will delight your guests and create lasting memories</p>
+    </div>
+
+    <div id="rimdo" >
+        <h1>Wedding</h1>
+        <img src="/Pictures/services.rimdo.jpeg" alt="Rimdo event" class="home-services-img">
+        <p>Elegant wedding catering tailored to your needs. You will think that you made the right choice.</p>
+    </div>
+
+    <div id="Birthday" >
+        <h1>Meeting</h1>
+        <img src="/Pictures/services.funeral.jpg" alt="Birthday event" class="home-services-img">
+        <p>Let us elevate your meeting with a catering experience that impresses your guests.</p>
+    </div>
+
+    <div id="wedding" >
+        <h1>Concession</h1>
+        <img src="/Pictures/pic9.jpg" alt="wedding event" class="home-services-img">
+        <p>learn more about our concession catering options and how we can make your occasion a delicious success!</p>
+    </div>
+
+    <div id="rimdo" >
+        <h1>Rimdo</h1>
+        <img src="/Pictures/pic8.jpg" alt="Rimdo event" class="home-services-img">
+        <p>Let Rimdo Catering transform your next event into a culinary celebration.</p>
+    </div>
+
+    <div id="Birthday" >
+        <h1>Funeral</h1>
+        <img src="/Pictures/pic7.webp" alt="Birthday event" class="home-services-img">
+        <p>Its about keeping employees happy and productive by offering them a variety of tasty.</p>
+    </div>
+
+    <div id="wedding" >
+        <h1>Sports Tournament</h1>
+        <img src="/Pictures/pic4.jpg" alt="wedding event" class="home-services-img">
+        <p>We specialise in corporate catering at all types of sporting events; from tennis and horse racing.</p>
+    </div>
+
+    <div id="rimdo" >
+        <h1>Corporate</h1>
+        <img src="/Pictures/pic3.jpg" alt="Rimdo event" class="Professionalhome-services-img">
+        <p>Let us take care of the catering so you can focus on what matters most—your business.</p>
+    </div>
+
+    <div id="Birthday" >
+        <h1>Ocassion</h1>
+        <img src="/Pictures/pic9.jpg" alt="Birthday event" class="home-services-img">
+        <p>Let us help you create lasting memories with a catering experience that your guests will rave.
+
+    <a href="services.html"><button id="home-service-btn">Learn More</button></a>
+</section>
+
+<marquee behavior="alternate" scrollamount="12"><h1 style="color: teal;">Carousel</h1></marquee> 
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" style="padding: 20px 5vw;">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/Pictures/services.birthday.jpg" class="d-block w-100" alt="..." style="height: 450px; width: 100%; object-fit: cover;">
+    </div>
+    <div class="carousel-item">
+      <img src="./event/footsal.jpg" class="d-block w-100" alt="..." style="height: 450px; width: 100%; object-fit: cover;">
+    </div>
+    <div class="carousel-item">
+      <img src="./event/wedding.jpg" class="d-block w-100" alt="..." style="height: 450px; width: 100%; object-fit: cover;">
+    </div>
+    <div class="carousel-item">
+      <img src="./event/meeting.jpg" class="d-block w-100" alt="..." style="height: 450px; width: 100%; object-fit: cover;">
+    </div>
+    <div class="carousel-item">
+      <img src="./event/rimdro.jpg" class="d-block w-100" alt="..." style="height: 450px; width: 100%; object-fit: cover;">
+    </div>
+    <div class="carousel-item">
+      <img src="./event/funeral.jpg" class="d-block w-100" alt="..." style="height: 450px; width: 100%; object-fit: cover;">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+
+<!-- Footer Section -->
+<footer>
+    <div class="footer-container">
+      <div class="quick-links">
+          <h3>Quick Links</h3>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </div>
+      <div class="get-quote" id="reguest-a-quote">
+          <h3>Get A Quote</h3>
+          <input type="text" placeholder="Enter your name" id="name1">
+          <input type="email" placeholder="Enter your email" id="email1">
+          <button onclick="requestOrder()">Request Quote</button>
+      </div>
+      <div class="social-media">
+          <h3>Follow Us</h3>
+          <ul>
+              <li><a href="#">Facebook&nbsp;&nbsp;<i class="fa-brands fa-facebook" style="color: #3633f0;"></i></a></li>
+              <li><a href="#">Instagram&nbsp;&nbsp;<i class="fa-brands fa-square-instagram" style="color: #fbf9f9"></i></a></li>
+              <li><a href="#">YouTube&nbsp;&nbsp;<i class="fa-brands fa-youtube"></i></a></li>
+
+              <li><a href="#">LinkedIn&nbsp;&nbsp;<i class="fa-brands fa-linkedin" style="color: #3633f0;"></i></a></li>
+          </ul>
+      </div>
+      <div class="contact-info">
+          <h3>Contact Information</h3>
+          <a href="contact.html#map"><p>Address: Gelephu, Samdrupling</p></a>
+          <a href="tel:+97577453602"><p>Phone: (+975) 77453602</p></a>
+          <a href="mailto:info@harmonycatering.com"><p>Email: info@harmonycatering.com</p></a>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2024 Harmony Catering. All rights reserved.</p>
+    </div>
+
+    <!-- Chatbot Dialog Box -->
+    <div id="harmony-chatbot">
+      <div id="harmony-chatbot-header">
+        <h2>Harmony Catering Bot</h2>
+        <button id="harmony-close-btn">&times;</button>
+      </div>
+      <div id="harmony-chatbot-body">
+        <div id="harmony-messages">
+          <!-- Chatbot messages will appear here -->
+        </div>
+        <div id="harmony-faq">
+          <!-- <h3>FAQs</h3> -->
+          <ul>
+            <!-- FAQ list populated dynamically -->
+          </ul>
+        </div>
+      </div>
+      <div id="harmony-chatbot-input">
+        <input type="text" id="harmony-user-input" placeholder="Ask me something..." />
+        <button id="harmony-send-btn">Send</button>
+      </div>
+    </div>
+
+    <!-- Chatbot Icon -->
+    <div id="harmony-chatbot-icon">
+      <img src="/Pictures/chatbot12.png" alt="Chat with Harmony Catering" />
+    </div>
+
+  </footer>
+
+
+
+
+    
+    
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
