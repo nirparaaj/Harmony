@@ -269,21 +269,6 @@ html, body {
   transform: scale(1.1); 
 }
 
-#home-service-btn {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  background-color: teal;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-#home-service-btn:hover {
-  background-color: #012a22;
-}
-
-
-
 /* Media Queries for Mobile */
 @media (max-width: 768px) {
 
