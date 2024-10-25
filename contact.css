@@ -241,7 +241,7 @@ html, body {
     width: 100%; 
     font-size: 2.5em;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: teal;
 }
 
@@ -350,9 +350,12 @@ html, body {
     .contactHeading {
         font-size: 2em;
     }
+    
 
     #map {
         height: 300px;
+        width: 96%;
+        margin: 0 auto;
     }
 }
 

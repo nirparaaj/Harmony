@@ -225,8 +225,6 @@ html, body {
 
 
 
- /* SErvices */
-
 /* What we offer Section */
 #home-services {
   flex-wrap: wrap;
@@ -259,8 +257,9 @@ html, body {
 }
 
 .home-services-img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 250px; 
+  object-fit: cover; 
   margin: 15px 0;
   transition: transform 0.3s ease; 
 }
@@ -271,34 +270,26 @@ html, body {
 
 /* Media Queries for Mobile */
 @media (max-width: 768px) {
-
-  /* What We Offer Section */
-  #home-services {
+    /* What We Offer Section */
+    #home-services {
       padding: 10px;
-  }
+    }
 
-  #home-services h1 {
-      font-size: 1.3em;
-  }
+    #home-services h1 {
+      font-size: 0.9em;
+    }
 
-  #home-services div {
+    #home-services div {
       width: 100%; 
       margin: 10px 0;
       text-align: center; 
-  }
+    }
 
-  .home-services-img {
-      max-width: 100%;
-      height: auto;
-  }
-
-  #home-service-btn {
-      width: 40%; 
-      padding: 5px;
-      font-size: 1em;
-      margin-top: 10px;
-  }
+    .home-services-img {
+      height: auto; 
+    }
 }
+
 
 
 
