@@ -231,7 +231,9 @@ html, body {
 #home-services {
     flex-wrap: wrap;
     text-align: center;
-    padding: 20px 0; 
+    padding: 20px 0;
+    background-color: #e9ecef;
+    border: none;
 }
 
 #home-services h1 {
@@ -254,8 +256,9 @@ html, body {
     border: 1px solid #cccccc;
     border-radius: 8px;
     padding: 15px;
-    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.5); */
     vertical-align: top;
+    background-color: #ffffff;
 }
 
 .home-services-img {
@@ -288,7 +291,7 @@ html, body {
     padding: 50px 20px;
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff; 
+    background-color: #e9ecef; 
 }
 
 #menu-highlights h2 {
@@ -302,12 +305,14 @@ html, body {
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    background-color: #e9ecef;
 }
 
 .dish {
     display: inline-block;
     width: 30%;
     overflow: hidden;
+    background-color: #ffffff;
     margin: 10px;
     height: 466px;
     border: 1px solid #cccccc;
@@ -409,7 +414,7 @@ html, body {
         width: 40%; 
         padding: 5px;
         font-size: 1em;
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     /* Featured Menu Section */
@@ -573,8 +578,8 @@ html, body {
 
 .copyright {
   text-align: center;
-  margin-top: 20px;
-  font-size: 0.8em;
+  margin-top: 35px;
+  font-size: 1em;
   color: #A8D5BA;
 }
 

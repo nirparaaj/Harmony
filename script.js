@@ -1,3 +1,5 @@
+// Chatbot
+
 document.addEventListener("DOMContentLoaded", function() {
   const chatbotIcon = document.getElementById("harmony-chatbot-icon");
   const chatbot = document.getElementById("harmony-chatbot");
@@ -84,7 +86,7 @@ document.querySelector('.uniqueContactForm').addEventListener('submit', function
   const email = document.getElementById('contactEmail').value;
   const message = document.getElementById('contactMessage').value;
 
-  // Check if all fields are filled
+  // Check if all fields are filled   
   if (name && email && message) {
       alert('Your order has been received. We will get back to you shortly!');
   } else {

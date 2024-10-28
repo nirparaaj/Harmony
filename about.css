@@ -16,6 +16,7 @@ html, body {
     /* overflow-y: hidden; */
     /* overflow-x: hidden; */
     scroll-behavior: smooth;
+    background-color: #e9ecef;
 }
 
 
@@ -233,6 +234,7 @@ html, body {
     gap: 20px;
     padding: 20px;
     box-sizing: border-box;
+    background-color: #e9ecef;
   }
   
   #mission, #vision {
@@ -267,6 +269,7 @@ html, body {
     text-align: center;
     margin-top: 20px;
     padding-bottom: 40px;
+    background-color: #e9ecef;
   }
   
   .mission-vision-button button {
