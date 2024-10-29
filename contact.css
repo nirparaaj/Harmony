@@ -228,7 +228,7 @@ html, body {
 
 #contactSection {
     display: flex;
-    flex-wrap: wrap; /* Allows wrapping in case of smaller screens */
+    flex-wrap: wrap; 
     align-items: flex-start;
     margin: 40px auto;
     max-width: 1200px;
@@ -253,16 +253,27 @@ html, body {
 }
 
 #imageContainer img {
-    width: 100%;
+    width: 90%;
     height: auto;
     object-fit: cover;
     border-radius: 8px;
+    animation: vibrate 0.9s infinite;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+}
+
+@keyframes vibrate {
+    0% { transform: translate(0); }
+    20% { transform: translate(-2px, 0); }
+    40% { transform: translate(2px, 0); }
+    60% { transform: translate(-2px, 0); }
+    80% { transform: translate(2px, 0); }
+    100% { transform: translate(0); }
 }
 
 /* Form Container */
 #contactFormSection {
-    flex: 1 1 55%; /* Flex-grow: 1, flex-shrink: 1, 55% width */
-    max-width: 55%; /* Ensure it doesn't exceed 55% */
+    flex: 1 1 55%; 
+    max-width: 55%; 
 }
 
 /* Form Styles */
@@ -422,8 +433,8 @@ footer {
   .footer-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Distribute space evenly */
-    align-items: flex-start; /* Align items from the top */
+    justify-content: space-between; 
+    align-items: flex-start; 
   }
   
   .footer-container div {

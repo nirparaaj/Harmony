@@ -14,7 +14,7 @@
 }
 html, body {
     /* overflow-y: hidden; */
-   overflow-x: hidden;
+   /* overflow-x: hidden; */
     scroll-behavior: smooth;
 }
 
@@ -265,37 +265,28 @@ body
   }
 
   .card-img-top {
-      height: auto; /* Auto height for smaller screens */
+      height: auto; 
   }
 
   .galleryh1 {
-      padding: 10px; /* Reduce padding on heading */
+      padding: 10px; 
   }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (max-width: 768px) {
   #carouselExampleAutoplaying {
       width: 90%;
-      padding: 15px; /* Adjust padding */
+      padding: 15px; 
   }
 
   .card-img-top {
-      height: auto; /* Auto height for tablets */
+      height: auto; 
   }
 
   .galleryh1 {
-      padding: 15px; /* Adjust padding */
+      padding: 15px; 
   }
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -321,8 +312,8 @@ footer {
 .footer-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* Distribute space evenly */
-  align-items: flex-start; /* Align items from the top */
+  justify-content: space-between; 
+  align-items: flex-start; 
 }
 
 .footer-container div {
