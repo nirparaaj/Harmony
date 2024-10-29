@@ -98,16 +98,17 @@ document.querySelector('.uniqueContactForm').addEventListener('submit', function
 
 
 
-// Footer request Quote
 function requestOrder() {
-  var name1 = document.getElementById('name1').value;
-  var email2 = document.getElementById('email1').value;
-  
-  if (name1 && email2) {
-      alert("Thank you, " + name1 + "! We have received your request. A quote will be sent to " + email2 + ".");
-    } else {
+  var name1 = document.getElementById('name1');
+  var email2 = document.getElementById('email1');
+
+  if (name1.value && email2.value) {
+      alert("Thank you, " + name1.value + "! We have received your request. A quote will be sent to " + email2.value + ".");
+  } else {
       alert("Please enter both your name and email.");
   }
+
+  // Clear the input fields
   name1.value = "";
   email2.value = "";
 }
