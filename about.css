@@ -706,8 +706,18 @@ footer {
     width: 80px;
     height: 70px;
     cursor: pointer;
-    z-index: 999; 
+    z-index: 999;
+    animation: pulse-animation 1.5s infinite;
   }
+
+  @keyframes pulse-animation {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+} 
   
   @media (max-width: 600px) {
     #harmony-chatbot {
