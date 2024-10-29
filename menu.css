@@ -16,8 +16,11 @@ html, body {
     /* overflow-y: hidden; */
     /* overflow-x: hidden; */
     scroll-behavior: smooth;
-}
 
+}
+body {
+  background-color: #e9ecef;
+}
 
 #main-nav-container {
     background-color: #003D5B;
