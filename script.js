@@ -105,7 +105,9 @@ function requestOrder() {
   
   if (name1 && email2) {
       alert("Thank you, " + name1 + "! We have received your request. A quote will be sent to " + email2 + ".");
-  } else {
+    } else {
       alert("Please enter both your name and email.");
   }
+  name1.value = "";
+  email2.value = "";
 }
