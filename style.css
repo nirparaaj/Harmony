@@ -578,7 +578,7 @@ html, body {
 
 .copyright {
   text-align: center;
-  margin-top: 35px;
+  margin-top: 45px;
   font-size: 1em;
   color: #A8D5BA;
 }
@@ -588,6 +588,7 @@ html, body {
   @media (max-width: 768px) {
     footer {
         padding: 20px 10px;
+        padding-bottom: 5px;
     }
   
     .footer-container {
@@ -638,6 +639,7 @@ html, body {
   
     .copyright {
         font-size: 1em;
+        margin-bottom: 1px;
     }
   }  
      
@@ -729,6 +731,3 @@ html, body {
       height: 50px;
     }
   }
-
-
- 
