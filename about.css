@@ -16,7 +16,11 @@ html, body {
     /* overflow-y: hidden; */
     /* overflow-x: hidden; */
     scroll-behavior: smooth;
-    background-color: #e9ecef;
+}
+body {
+  background-color: #e9ecef;
+
+  
 }
 
 
