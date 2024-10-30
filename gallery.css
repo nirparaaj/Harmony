@@ -21,6 +21,8 @@ html, body {
 body 
 {
   background-color: #e9ecef;
+     overflow-x: hidden;
+
 }
 #main-nav-container {
     background-color: #003D5B;
@@ -229,9 +231,11 @@ body
 
 /* Gallery */
 #carouselExampleAutoplaying {
-  padding: 20px 5vw;
+  padding: 20px 5vw; /* Responsive padding */
   margin: 0 auto;
   justify-content: center;
+  width: 100%;
+  overflow: hidden; /* Prevent overflow in the carousel */
 }
 
 .galleryh1 {
@@ -242,15 +246,15 @@ body
 }
 
 .card {
-  height: 300px;
   border-radius: 20px;
   margin: 0 auto;
+  overflow: hidden; /* Prevent overflow from card content */
 }
 
 .card-img-top {
-  height: 100%;
-  border-radius: 50px;
-  padding: 20px;
+  width: 100%; /* Ensure images fit the card */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 20px; /* Match card radius */
   transition: transform 0.3s ease;
 }
 
@@ -261,32 +265,15 @@ body
 /* Media Queries */
 @media (max-width: 768px) {
   #carouselExampleAutoplaying {
-      padding: 10px;
-  }
-
-  .card-img-top {
-      height: auto; 
+    padding: 10px; /* Adjust padding for smaller screens */
+    width: 90%; /* Ensure carousel fits within the viewport */
   }
 
   .galleryh1 {
-      padding: 10px; 
+    padding: 10px; 
   }
 }
 
-@media (max-width: 768px) {
-  #carouselExampleAutoplaying {
-      width: 90%;
-      padding: 15px; 
-  }
-
-  .card-img-top {
-      height: auto; 
-  }
-
-  .galleryh1 {
-      padding: 15px; 
-  }
-}
 
 
 
