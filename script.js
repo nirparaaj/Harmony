@@ -78,22 +78,28 @@ myList.addEventListener("click", function (e) {
 });
 
 
+function summit() {
+  var name5 = document.getElementById('contactName');
+  var email5 = document.getElementById('contactEmail');
+  var message5 = document.getElementById('contactMessage');
+  var phone5 = document.getElementById('contactphone');
 
-
-// contact
-document.querySelector('.uniqueContactForm').addEventListener('submit', function(event) {
-  const name = document.getElementById('contactName').value;
-  const email = document.getElementById('contactEmail').value;
-  const message = document.getElementById('contactMessage').value;
-
-  // Check if all fields are filled   
-  if (name && email && message) {
-      alert('Your order has been received. We will get back to you shortly!');
+  // Check if the required fields are filled
+  if (name5.value && email5.value && message5.value) {
+      alert("Thank you, " + name5.value + "! Your message has been sent.");
   } else {
-      event.preventDefault(); 
-      alert('Please fill in all required fields.');
+      alert("Please fill in all required fields.");
   }
-});
+
+  // Clear the input fields
+  name5.value = "";
+  email5.value = "";
+  message5.value = "";
+  phone5.value = "";
+}
+
+
+
 
 
 

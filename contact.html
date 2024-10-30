@@ -70,19 +70,18 @@
     <div id="contactFormSection">
         <form class="uniqueContactForm">
             <label for="contactName">Your Name:</label>
-            <input type="text" id="contactName" name="name" placeholder="Dawa Zangmo" required>
+            <input type="text" id="contactName" placeholder="Dawa Zangmo" required>
             
             <label for="contactEmail">Your Email:</label>
-            <input type="email" id="contactEmail" name="email" placeholder="dawa1998@gmail.com" required>
+            <input type="text" id="contactEmail" placeholder="dawa1998@gmail.com" required>
             
             <label for="contactPhone">Phone (Optional):</label>
-            <input type="tel" id="contactPhone" name="phone" placeholder="17986534" pattern="[0-9]{8}" 
-                   title="Please enter a valid 8-digit phone number">
+            <input type="number" id="contactPhone" placeholder="17986534">
             
             <label for="contactMessage">Message:</label>
-            <textarea id="contactMessage" name="message" rows="5" placeholder="Tell us how we can help with your event..." required></textarea>
+            <textarea id="contactMessage" rows="4" placeholder="Tell us how we can help with your event..." required></textarea>
             
-            <button type="submit">Send Message</button>
+            <button type="submit" onclick="summit()">Send Message</button>
         </form>
     </div>
 </section>
